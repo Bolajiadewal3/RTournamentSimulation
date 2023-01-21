@@ -11,7 +11,7 @@ Utilising global variables - prone to human error
 
 
 Tourney (1)-> TournamentSimulation (1)-> FindTotalNumberOfRounds 
-        (1)-> generatePlayers (1)-> generatePhoneNumbers
+       (1)-> generatePlayers (1)-> generatePhoneNumbers
         (1<)-> RoundSimulation (1<)-> GameSimulation
 
 
