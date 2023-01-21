@@ -16,22 +16,22 @@ Returning edited dataframes within lists that cascade up entire tournament OR
 Utilising global variables - prone to human error
 
 
-Tourney (1)-> TournamentSimulation (1)-> FindTotalNumberOfRounds. 
-        (1)-> generatePlayers (1)-> generatePhoneNumbers. 
-        (1<)-> RoundSimulation (1<)-> GameSimulation.  
+Tourney (1)-> TournamentSimulation (1)-> FindTotalNumberOfRounds.   
+        (1)-> generatePlayers (1)-> generatePhoneNumbers.   
+        (1<)-> RoundSimulation (1<)-> GameSimulation.    
 
 Key::
-(1)-> : Calls next function once. 
-(1<)-> : Calls next function possibly more than once. 
+(1)-> : Calls next function once.   
+(1<)-> : Calls next function possibly more than once.   
 
-The mode of operation of the program::
-(1) The program will take the number of players specificied by the user in the tourney() function. 
-(2) The program will produce a dataframe of automatically created players, each with a unique _phone number_, _gender_ and _ID_. 
-(3) The program will simulates games within a round, the rounds within the tournament, and return the entire tournament to the function call. 
+The mode of operation of the program::  
+(1) The program will take the number of players specificied by the user in the tourney() function.   
+(2) The program will produce a dataframe of automatically created players, each with a unique _phone number_, _gender_ and _ID_.   
+(3) The program will simulates games within a round, the rounds within the tournament, and return the entire tournament to the function call.   
 
-To run the program::  
-(1) Import all the .r files in R studio or your terminal. 
-(2) Run tourney(x) with an even number of players, x
+To run the program::    
+(1) Import all the .r files in R studio or your terminal.   
+(2) Run tourney(x) with an even number of players, x. 
 
 References used::  
 • Chesney, T. (2022) “Monte Carlo Methods,” Data Management and Manipulation, University of Nottingham, 3 November.  
