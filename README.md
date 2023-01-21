@@ -1,4 +1,10 @@
 # RTournamentSimulation
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/Bolajiadewal3/RTournamentSimulation)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Bolajiadewal3/RTournamentSimulation)
+![GitHub language count](https://img.shields.io/github/languages/count/Bolajiadewal3/RTournamentSimulation)
+![GitHub top language](https://img.shields.io/github/languages/top/Bolajiadewal3/RTournamentSimulation)
+
+
 Single Elimination Tournament Simulation in R
 
 This contains a single elimination tournament that can have a number of players specified. The number must be even, odd will not work due to the nature of a single elimintation tournament
